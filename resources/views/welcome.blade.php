@@ -1,14 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <title>Document</title>
-</head>
-<body>
-    {{-- Javascript --}}
-    <script src="{{asset('js/app.js')}}"></script>
-</body>
-</html>
+@extends('layouts.main')
+
+@section('title')
+    Prova
+@endsection
+
+@section('content')
+    <div class="jumbotron">
+        
+    </div>
+    <div class="boxes grid-wrapper">
+        <div class="box zone"><img src="{{asset('img/img1.png')}}" alt=""></div>
+        <div class="box zone"><img src="{{asset('img/img2.png')}}" alt=""></div>
+        <div class="box zone"><img src="{{asset('img/img3.png')}}" alt=""></div>
+        <div class="box zone"><img src="{{asset('img/img4.png')}}" alt=""></div>
+        <div class="box zone"><img src="{{asset('img/img5.png')}}" alt=""></div>
+        <div class="box zone"><img src="{{asset('img/img6.png')}}" alt=""></div>
+        <div class="box zone"><img src="{{asset('img/img7.png')}}" alt=""></div>
+        <div class="box zone"><img src="{{asset('img/img8.png')}}" alt=""></div>
+    </div>
+@endsection

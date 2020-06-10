@@ -1,0 +1,12 @@
+.jumbotron {
+    @include common();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-image: url('../img/jumbotronbg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 66px;
+}

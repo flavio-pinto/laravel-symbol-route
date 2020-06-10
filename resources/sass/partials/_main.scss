@@ -1,0 +1,19 @@
+.boxes {
+    @include common();
+    background: $background__blue;
+    & .box {
+        @include common();
+        background: #444;
+        padding: 130px;
+        margin: 20px;
+        & img {
+            width: 100%;
+        }
+    }
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}

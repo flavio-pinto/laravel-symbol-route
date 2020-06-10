@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto 0;
+    font-family: Arial;
+}
+
+//Variables
+$background__blue: #7abcff;
+
+//Mixins 
+@mixin display__flex($flex__direction: row, $justify__content: space-between, $align__items: center, $flex__wrap: wrap) {
+    display: flex;
+    flex-direction: $flex__direction;
+    justify-content: $justify__content;
+    align-items: $align__items;
+    flex-wrap: $flex__wrap;
+}
+
+@mixin common() {
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+@mixin hover() {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}

@@ -12987,9 +12987,7 @@ process.umask = function() { return 0; };
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-$(document).ready(function () {
-  console.log('JQUERY IT\'S IN THE GAME');
-});
+$(document).ready(function () {});
 
 /***/ }),
 
