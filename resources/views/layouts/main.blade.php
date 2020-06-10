@@ -10,7 +10,8 @@
 <body>
     <header>
         <ul class="main-nav">
-            <li><a href="#">About</a></li>
+            <li><a href="{{URL::to('./')}}">Welcome Page</a></li>
+            <li><a href="{{URL::to('about')}}">About</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">Our Team</a></li>
             <li><a href="#">Contact</a></li>
