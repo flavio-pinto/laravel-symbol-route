@@ -23,7 +23,7 @@
     </div>
 
     <footer class="footer">
-        <h3>By Flavio - Classe #12</h3>
+        <h3>Lorem ipsum</h3>
     </footer>
     {{-- Javascript --}}
     <script src="{{asset('js/app.js')}}"></script>

@@ -24,9 +24,6 @@ body {
   margin: 0;
   list-style: none;
   font-size: 1.5em;
-  position: fixed;
-  top: 0;
-  left: 0;
   z-index: 99;
   width: 100%;
 }
@@ -70,6 +67,13 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin-top: 66px;
+  color: black;
+  text-align: left;
+}
+.jumbotron h5 {
+  text-align: left;
+  width: 100%;
+  margin-left: 30px;
 }
 
 .boxes {
@@ -98,6 +102,15 @@ body {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.lista-merce,
+.lorem-container {
+  margin-top: 40px;
+}
+
+p {
+  margin-bottom: 20px;
 }
 
 .footer {

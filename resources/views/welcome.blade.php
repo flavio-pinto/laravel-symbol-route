@@ -1,12 +1,12 @@
 @extends('layouts.main')
 
 @section('title')
-    Prova
+    Welcome Page
 @endsection
 
 @section('content')
     <div class="jumbotron">
-        
+        <h5>{{$nome}} {{$cognome }} - {{$classe}}</h5>
     </div>
     <div class="boxes grid-wrapper">
         <div class="box zone"><img src="{{asset('img/img1.png')}}" alt=""></div>

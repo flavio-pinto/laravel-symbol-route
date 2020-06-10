@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller {
     public function index() {
-        return view( 'welcome');
+        $nome = 'Flavio';
+        $cognome = 'Pinto';
+        $classe = 'Classe #12';
+        return view( 'welcome', compact('nome', 'cognome', 'classe'));
     }
 }
